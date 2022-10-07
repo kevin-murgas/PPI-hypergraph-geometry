@@ -1,5 +1,5 @@
 # PPI-hypergraph-geometry
-Code for publication:
+Code for publication:\
 Hypergraph Geometry Reflects Higher-Order Dynamics in Protein Interaction Networks\
 Kevin A. Murgas, Emil Saucan, Romeil Sandhu\
 Scientific Reports (under review)
