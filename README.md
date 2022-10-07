@@ -21,4 +21,4 @@ Scientific Reports (under review)
 5. **analyze2Dresults.R** - This R script is used to examine the results from the curvature_script.m analysis. The script loads in results files from a specified experiment (i.e. gene expression dataset). Then various data are represented in figures corresponding to the figures in our manuscript.
 
 ## Support
-Any questions about code execution or code bugs are welcome. Please use Github issues, or email the authors.
+Any questions about implementation or code bugs are welcome. Please use Github issues, or email the authors.
