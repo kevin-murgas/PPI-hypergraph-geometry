@@ -18,7 +18,7 @@ Scientific Reports (under review)
       matlab -batch "curvature_script $BASEDIR $EXPRFILE $TOPOFILE $OUTDIR"
       ```
    * where $BASEDIR, $EXPRFILE, $TOPOFILE, $OUTDIR specify respectively the base directory (where to run code from), expression file (.mat, prepared by preprocess_expression.m), topology file (prepared by convert2mat.m), and output directory to save results files.
-5. **analyze2Dresults.R** - This R script is used to examine the results from the curvature_script.m analysis. The script loads in results files from a specified experiment (i.e. gene expression dataset). Then various data are represented in figures corresponding to the figures in our manuscript.
+5. **analyze2Dresults.R** - This R script is used to examine the results from the curvature_script.m analysis. The script loads in results files from a specified experiment (i.e. gene expression dataset). Then various data are presented in figures corresponding to the figures in our manuscript. Note, as the results files are quite large (>1 Gb), the results were not uploaded to Github and need to be processed and saved, or reach out to the author for a copy of the results data.
 
 ## Support
 Any questions about implementation or code bugs are welcome. Please use Github issues, or email the authors.
