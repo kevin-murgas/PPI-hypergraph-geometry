@@ -6,7 +6,6 @@ library(STRINGdb)
 library(tidyverse)
 
 # set working directory as needed, where to save the string node/edge files
-setwd("/Users/linclab/Documents/Sandhu Lab/STRINGdb_data")
 # setwd(your_working_directory)
 library(here)
 
