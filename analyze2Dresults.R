@@ -227,6 +227,10 @@ ROC_all = plot(ROC_all_f1, col="red", print.auc=T, print.auc.y = .3, print.auc.x
 ROC_all = plot(ROC_all_f2, col="green", print.auc=T, print.auc.y = .5, print.auc.x = .3, add=T)
 text(.3,c(.3,.4,.5)-0.024,c("FR_1D","SR","FR_2D"), col = c("red","blue","green"), pos=2)
 
+# compare AUC
+roc.test(response = plot_df$t, predictor1 = plot_df$f2, predictor2 = plot_df$s)
+roc.test(response = plot_df$t, predictor1 = plot_df$f2, predictor2 = plot_df$f1)
+roc.test(response = plot_df$t, predictor1 = plot_df$f1, predictor2 = plot_df$s)
 
 # differential expression and curvature for each gene
 ind_N = which(sampType == 1); ind_T = which(sampType == 2)
